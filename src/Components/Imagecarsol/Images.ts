@@ -34,7 +34,7 @@ otherImages: [
 
 belowBefore: [
     { src: Beforeonedefault, title: "Image 1" },
-    { src: img1After, title: "Image 2" },
+    { src: dining, title: "Image 2" },
     { src: bedroomImg, title: "Image 3" }
   ]
 };
