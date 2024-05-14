@@ -1,0 +1,126 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(155, 144, 144, 0.87);
+  background-color: #FFFFFF;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@font-face {
+  font-family: 'Silk Serif';
+  src: url('./silk-serif/Silk Serif Regular.otf') format('opentype'),
+  url('./silk-serif/Silk Serif Light Italic.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  }
+  
+  .font-silk-serif {
+  font-family: 'Silk Serif', serif; /* Use 'Silk Serif' here */
+  }
+
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+      display: none;
+  }
+ /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+      -ms-overflow-style: none;  /* IE and Edge */
+      scrollbar-width: none;  /* Firefox */
+}
+}
+
+
+.main-index-card {
+  width: calc(100% / 2 - 1rem);
+ 
+  
+  
+}
+
+@media (min-width: 375px) {
+  .main-index-card-sm {
+    
+    width: calc(70% / 1 - 0.010rem);
+    display: flex;
+    flex-direction: column;
+    margin: 1cqb;
+    
+
+   
+    
+  }
+}
+@media (max-width: 767px) {
+  .direction-aware-hover {
+    width: 26dvh;
+    height: 15rem;
+   margin-left: auto;
+   margin-right: auto;
+   
+ 
+      
+  }
+}
+@media (max-width: 767px) {
+  .direction-card {
+    height: 17rem;
+    width: 40dvh;
+    
+  }
+}
+
+
+
+ /* this is the text below the line effect according to mobile  */
+@media screen and (max-width: 640px) {
+  .mtmb {
+    margin-top: 2rem; /* Adjust as needed */
+  }
+}
+@media screen and (max-width: 375px) {
+  .mtmbsm {
+    margin-top: 10rem; /* Adjust as needed */
+  }
+}
+@media screen and (max-width: 430px) {
+  .mtmbsmt {
+    margin-top: 1rem; /* Adjust as needed */
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .mttext {
+    transform: translateY(-10rem); 
+   /* Adjust as needed */
+  }
+
+}
+@media screen and (max-width: 375px) {
+  .mttextsm {
+    transform: translateY(-2rem); 
+   /* Adjust as needed */
+  }
+
+}
+@media screen and (max-width: 430px) {
+  .mttextip {
+    transform: translateY(-9rem); 
+   /* Adjust as needed */
+  }
+
+}
+
+
+
+
