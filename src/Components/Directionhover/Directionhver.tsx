@@ -8,47 +8,49 @@ const DirectionAwareHoverDemo = () => {
     "https://images.unsplash.com/photo-1663765970236-f2acfde22237?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   ];
   const videos = [
-    'https://videos.pexels.com/video-files/3773486/3773486-hd_1920_1080_30fps.mp4',  
-    'https://videos.pexels.com/video-files/3773486/3773486-hd_1920_1080_30fps.mp4', 
-    'https://videos.pexels.com/video-files/3773486/3773486-hd_1920_1080_30fps.mp4', 
+    "https://videos.pexels.com/video-files/3773486/3773486-hd_1920_1080_30fps.mp4",
+    "https://videos.pexels.com/video-files/3773486/3773486-hd_1920_1080_30fps.mp4",
+    "https://videos.pexels.com/video-files/3773486/3773486-hd_1920_1080_30fps.mp4",
   ];
   const customTexts = [
     "the interior design ",
-    "buiding design",
-    "Custom design",
+    "buiding design building",
+    "Custom design home",
   ];
-
 
   return (
     <>
-    <div className="bg-[#e2e0dc] flex  flex-col items-center p-4 ">
+      <div className="bg-[#e2e0dc] flex  flex-col items-center p-4 ">
+        <h1 className="font-semibold text-2xl font-serif text-black">
+          Explore Our Latest Projects.
+        </h1>
+        <br />
+        <h2 className="font-medium font-serif text-slate-700">
+          Discover groundbreaking AI solutions that are transforming industries
+          and driving progress. Step into the future with our cutting-edge
+          projects.
+        </h2>
+      </div>
 
-    <h1 className="font-semibold text-2xl font-serif text-black">Explore Our Latest Projects.</h1>
-    <br/>
-    <h2 className="font-medium font-serif text-slate-700">Discover groundbreaking AI solutions that are transforming industries and driving progress. Step into the future with our cutting-edge projects.</h2>
-    </div>
-  
-    <div className="h-[100%]     bg-[#e2e0dc] mb-4 flex items-center align-middle justify-center">
-    
-      <div className="grid   grid-cols-1 md:grid-cols-2 justify-center lg:grid-cols-2 gap-6 max-w-screen-lg">
-        {images.map((imageUrl, index) => (
-          <DirectionAwareHover
-            key={index}
-            imageUrl={imageUrl}
-            videoUrl={videos[index]}
-           
-            
-          
-          >
-              <p className="font-bold  relative top-[-8rem] text-xl"> {customTexts[index]} </p>
-           
-          </DirectionAwareHover>
-        ))}
-        <div className="bg-transparent relative top-[-2rem] bottom-[1rem]  " >
-          <CardStackDemo />
+      <div className="h-[100%]     bg-[#e2e0dc] mb-4 flex items-center align-middle justify-center">
+        <div className="grid   grid-cols-1 md:grid-cols-2 justify-center lg:grid-cols-2 gap-6 max-w-screen-lg">
+          {images.map((imageUrl, index) => (
+            <DirectionAwareHover
+              key={index}
+              imageUrl={imageUrl}
+              videoUrl={videos[index]}
+            >
+       
+       <p className="font-medium font-silk-serif text-balance text-center whitespace-nowrap left-[3rem] relative top-[-5rem]">
+  {customTexts[index]} 
+</p>
+            </DirectionAwareHover>
+          ))}
+          <div className="bg-transparent relative top-[-2rem] bottom-[1rem]  ">
+            <CardStackDemo />
+          </div>
         </div>
       </div>
-    </div>
     </>
   );
 };

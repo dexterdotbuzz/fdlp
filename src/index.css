@@ -28,6 +28,8 @@
   font-family: 'Silk Serif', serif; /* Use 'Silk Serif' here */
   }
 
+
+
 @layer utilities {
   /* Hide scrollbar for Chrome, Safari and Opera */
   .no-scrollbar::-webkit-scrollbar {
@@ -122,5 +124,13 @@
 }
 
 
+.body-text {
+  font-family: 'WorkSans-Regular', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: rgb(88, 87, 85);
+  font-size: 14px;
+  line-height: 16px;
+}
 
 

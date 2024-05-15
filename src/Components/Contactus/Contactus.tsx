@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import img from "../../assets/interiordeg.jpg";
 import img2 from "../../assets/furniture.jpg";
+import { Button } from "../ui/moving-border";
 
 const DesignRetailSection: React.FC = () => {
   const [selectedOption, setSelectedOption] = useState<string>(
@@ -50,7 +51,7 @@ const DesignRetailSection: React.FC = () => {
               className="w-full object-contain h-auto"
             />
           </div>
-          <div className="w-full md:w-1/2">
+          <div className="w-full md:w-1/2 body-text">
             <div className="text-black font-semibold p-2">
               {selectedOption === "Furniture Vendors" ? (
                 <div className="text-left">
@@ -91,9 +92,12 @@ const DesignRetailSection: React.FC = () => {
             </div>
           </div>
         </div>
-        <button className="mt-4 py-2 px-[5rem] rounded-3xl bg-[#806B5A] text-white">
-          Get Started
-        </button>
+        <Button
+        borderRadius="1.75rem"
+        className="  bg-[#806B5A] font-bold text-stone-100 dark:text-stone-600 border-neutral-200 dark:border-transparent"
+      >
+        Get Started
+      </Button>
       </div>
     </div>
   );
