@@ -60,7 +60,7 @@ export const DirectionAwareHover = ({
       <motion.div
         ref={ref}
         className={cn(
-          "md:h-72 w-60 h-[12rem]  md:w-96 bg-transparent  mb-5 direction-aware-hover rounded-3xl overflow-hidden group/card relative",
+          "md:h-72 w-60 h-full  md:w-96 bg-transparent  mb-5 direction-aware-hover rounded-3xl overflow-hidden group/card relative",
          
           className
         )}
@@ -87,18 +87,18 @@ export const DirectionAwareHover = ({
         </AnimatePresence>
         <AnimatePresence>
           <motion.div
-            className="relative w-full h-[10rem] "
+            className="relative  "
             // Set the height dynamically
-            // whileHover={{ scale: 1.0, transition: { delay: 0.1 } }}
-            // exit={{ opacity: 1 }}
+            // whileHover={{ scale: 1.1, transition: { delay: 0.1 } }}
+            exit={{ opacity: 1 }}
             
             onClick={handleVideoClick} // Show/hide video on click
           >
-            <motion.div className="group-hover/card:block hidden absolute inset-0 w-full direction-aware-hover rounded-3xl h-[15rem]  bg-black/40 z-10 transition duration-500" />
+            <motion.div className="group-hover/card:block hidden absolute inset-0 w-full direction-aware-hover rounded-3xl h-full  bg-black/40 z-10 transition duration-500" />
             <motion.div
               variants={variants}
               whileHover={{ backgroundColor: "#d1d5db" }} 
-              className="h-[10rem] w-full relative bg-[#e2e0dc] "
+              className=" h-full rounded-3xl w-full relative bg-[#e2e0dc] "
               transition={{
                 duration: 0.2,
                 ease: "easeOut",
@@ -107,7 +107,7 @@ export const DirectionAwareHover = ({
               <img
                 alt="image"
                 className={cn(
-                  "max-h-max w-full object-cover sm:border-none direction-aware-hover rounded-3xl",
+                  " h-[100%] w-full object-cover sm:border-none direction-aware-hover rounded-3xl",
                   imageClassName
                 )}
                 src={imageUrl}

@@ -153,8 +153,8 @@ const [selectedMainBelowCardIndex, setSelectedMainBelowCardIndex] = useState<num
                 className="w-full h-auto object-cover rounded-t-lg"
               />
               {selectedMainImageIndex === index && (
-                <div className="absolute inset-0 flex justify-center items-center">
-                  <RiCheckboxCircleFill className="text-orange-500 text-2xl" />
+                <div className="absolute  inset-0 flex justify-center items-center">
+                  <RiCheckboxCircleFill className="text-[#4d453e] relative bottom-3  text-2xl" />
                 </div>
               )}
               <p className="bg-white text-center text-sm font-medium py-2">

@@ -15,7 +15,7 @@ const Header = () => {
         />
       </a>
 
-      <a href="login" className="p-2 font-semibold hover:text-gray-300">
+      <a href="login" className="p-2 font-semibold hover:text-gray-800">
         <span>Login <FiArrowRight className="inline-block" /></span>
       </a>
     </header>
