@@ -21,7 +21,7 @@ const Flowbitesection1 = () => {
           <p className="mb-6 font-light text-[#000000] md:text-lg dark:text-gray-400">Your perfect home layout is just $249 away — let our top designers + AI guide you through a custom floor plan experience like no other</p>
           <Button
             borderRadius="1.75rem"
-            className="bg-[#D1CFC8] font-bold text-stone-800 dark:text-stone-600 border-neutral-200 dark:border-transparent"
+            className="bg-[#D1CFC8] font-silk-serif font-bold text-stone-800 dark:text-stone-600 border-neutral-200 dark:border-transparent"
           >
             Get Started
           </Button>

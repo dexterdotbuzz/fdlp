@@ -21,7 +21,7 @@ const Flowbitesection1 = () => {
           <p className="mb-6 font-light text-[#000000] md:text-lg dark:text-gray-400">Revamp your home effortlessly—shop your favorite looks and bring your vision to life with a single click!</p>
           <Button
             borderRadius="1.75rem"
-            className="bg-[#D1CFC8] font-bold text-stone-800 dark:text-stone-600 border-neutral-200 dark:border-transparent"
+            className="bg-[#D1CFC8] font-bold font-silk-serif text-stone-800 dark:text-stone-600 border-neutral-200 dark:border-transparent"
           >
             Get Started
           </Button>

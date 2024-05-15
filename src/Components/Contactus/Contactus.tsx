@@ -94,7 +94,7 @@ const DesignRetailSection: React.FC = () => {
         </div>
         <Button
         borderRadius="1.75rem"
-        className="  bg-[#806B5A] font-bold text-stone-100 dark:text-stone-600 border-neutral-200 dark:border-transparent"
+        className="  bg-[#806B5A] font-silk-serif font-bold text-stone-100 dark:text-stone-600 border-neutral-200 dark:border-transparent"
       >
         Get Started
       </Button>

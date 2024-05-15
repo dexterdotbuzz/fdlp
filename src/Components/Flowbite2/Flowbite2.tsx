@@ -30,7 +30,7 @@ const Flowbite2 = () => {
           <p className="mb-6 font-light text-[#000000] md:text-lg dark:text-gray-400">Convert Floor Plans to Stunning 3D VR! Bring your floor plans to life and visualize your space in stunning detail</p>
           <Button
             borderRadius="1.75rem"
-            className="bg-[#D1CFC8] font-bold text-stone-800 dark:text-stone-600 border-neutral-200 dark:border-transparent"
+            className="bg-[#D1CFC8] font-bold text-stone-800 dark:text-stone-600 border-neutral-200 font-silk-serif dark:border-transparent"
           >
             Borders are cool
           </Button>

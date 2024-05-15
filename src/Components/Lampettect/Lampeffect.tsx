@@ -61,7 +61,7 @@ export function LampDemo() {
             >
               <source src="https://videos.pexels.com/video-files/3773486/3773486-hd_1920_1080_30fps.mp4" type="video/mp4" />
              
-              Your browser does not support the video tag.
+              
             </video>
           </div>
           <MovingBorderDemo />
@@ -70,10 +70,11 @@ export function LampDemo() {
 
     
       {showButton && (
-  <div className="fixed bottom-0 left-1/2 transform -translate-x-1/2 z-50 md:hidden">
-    <button className="w-dvw bg-[#e2e0db] hover:bg-blue-600 text-[#585755] font-bold py-2 px-[2rem] rounded"     style={{ fontFamily: 'silk-serif' }}>
-      Get started
-    </button>
+  <div className="fixed bottom-0 body-text left-1/2 transform -translate-x-1/2 z-50 md:hidden">
+  <button className="w-dvw  shadow-md bg-primary hover-bg-primary-dark text-[#eeece9] font-bold py-2 px-[2rem] rounded  bg-stone-700" >
+  Get started
+</button>
+
   </div>
 )}
 

@@ -7,7 +7,7 @@
   color-scheme: light dark;
   color: rgba(155, 144, 144, 0.87);
   background-color: #FFFFFF;
-
+  font-family: "Work Sans", sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -120,9 +120,16 @@
 
 }
 
+@font-face {
+  font-family: 'Work Sans';
+  src: url('./fonts/WorkSans-VariableFont_wght.ttf') format('truetype'),
+       url('./fonts/static/WorkSans-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 .body-text {
-  font-family: 'WorkSans-Regular', sans-serif;
+  font-family: 'Work Sans', sans-serif;
   font-style: normal;
   font-weight: 400;
   color: rgb(88, 87, 85);
@@ -131,3 +138,12 @@
 }
 
 
+/* Global styles or in your main CSS file */
+.hover-bg-primary-dark {
+  transition-property: #ff4;
+  transition-duration: 300ms;
+}
+
+.hover-bg-primary-dark:hover {
+  background-color: #33f; /* Change 'your-primary-dark-color' to your desired color value */
+}
