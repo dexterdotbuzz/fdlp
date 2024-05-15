@@ -15,15 +15,15 @@ const DesignRetailSection: React.FC = () => {
   return (
     <div className="container mx-auto py-8">
       <div className="text-center">
-        <h1 className="text-4xl text-black font-bold mb-4 font-serif">
+        <h1 className="text-4xl text-black font-bold mb-4 font-silk-serif">
           Not just AI, we make your project live remotely
         </h1>
-        <p className="text-lg mb-8">
+        <p className="text-lg mb-8 font-silk-serif">
           Get AI + World Class Designers work for your project
         </p>
         <div className="mb-8">
           <button
-            className={`mr-4 py-2 px-6 rounded-lg ${
+            className={`mr-4 py-2 px-6 rounded-lg font-silk-serif ${
               selectedOption === "Interior Designers"
                 ? "bg-brown border bg-[#806B5A] w-[12rem] text-white font-semibold"
                 : ""
@@ -33,7 +33,7 @@ const DesignRetailSection: React.FC = () => {
             AI designer
           </button>
           <button
-            className={`py-2 px-4 rounded-lg ${
+            className={`py-2 px-4 rounded-lg font-silk-serif ${
               selectedOption === "Furniture Vendors"
                 ? "bg-brown border font-semibold bg-[#806B5A] text-white"
                 : ""
