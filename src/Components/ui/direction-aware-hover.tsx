@@ -107,7 +107,7 @@ export const DirectionAwareHover = ({
               <img
                 alt="image"
                 className={cn(
-                  "max-h-max w-full object-cover sm:border-none direction-aware-hover rounded-3xl",
+                  "h-[240px] w-full object-cover sm:border-none direction-aware-hover rounded-3xl",
                   imageClassName
                 )}
                 src={imageUrl}

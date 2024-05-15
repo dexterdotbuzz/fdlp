@@ -3,9 +3,9 @@ import { CardStackDemo } from "../Cardstack/Cardstack";
 
 const DirectionAwareHoverDemo = () => {
   const images = [
-    "https://res.cloudinary.com/dzo4lqjb2/video/upload/v1715756057/Websites/fd-case3_1_wfedcz.mp4",
-    "https://images.unsplash.com/photo-1663765970236-f2acfde22237?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "https://images.unsplash.com/photo-1663765970236-f2acfde22237?q=80&w=3542&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "https://res.cloudinary.com/dzo4lqjb2/image/upload/v1715052158/Websites/SCR-20240402-qdaq_nqwv6a.jpg",
+    "https://res.cloudinary.com/dzo4lqjb2/image/upload/v1715052230/Websites/SCR-20240402-qjdq_teltfq.jpg",
+    "https://res.cloudinary.com/dzo4lqjb2/image/upload/v1715053159/Websites/SCR-20240507-kodp_u6owdk.jpg",
   ];
   const videos = [
     "https://videos.pexels.com/video-files/3773486/3773486-hd_1920_1080_30fps.mp4",
