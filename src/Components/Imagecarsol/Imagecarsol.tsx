@@ -23,9 +23,10 @@ const [selectedMainBelowCardIndex, setSelectedMainBelowCardIndex] = useState<num
   };
 
   return (
-    <div className="relative flex flex-col body-text md:flex-row justify-center h-full items-center mx-12 p-[1rem]">
+  
+    <div className="relative  flex flex-col body-text md:flex-row justify-center h-full items-center mx-12 p-[1rem]">
       {/* Main image */}
-      <div className="relative md:w-1/2 mb-8 md:mb-0 flex flex-col justify-end items-end">
+      <div className="relative  md:w-1/2 mb-8 md:mb-0 flex flex-col justify-end items-end">
         <ReactCompareSlider
                    itemOne={
                     <>
@@ -167,6 +168,7 @@ const [selectedMainBelowCardIndex, setSelectedMainBelowCardIndex] = useState<num
 
       
     </div>
+    
   );
 };
 
