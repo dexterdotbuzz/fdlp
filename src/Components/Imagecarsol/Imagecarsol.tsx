@@ -122,7 +122,7 @@ const [selectedMainBelowCardIndex, setSelectedMainBelowCardIndex] = useState<num
       <div className="w-full md:w-2/3 p-4 overflow-x-hidden px-[2rem]  "
     
       >
-        <div className="hidden md:block">
+        <div className=" md:block">
           <h2
             className="text-2xl text-black font-bold mb-4"
             style={{ fontStyle: "italic" }}
