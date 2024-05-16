@@ -122,14 +122,14 @@ const [selectedMainBelowCardIndex, setSelectedMainBelowCardIndex] = useState<num
       <div className="w-full md:w-2/3 p-4 overflow-x-hidden px-[2rem]  "
     
       >
-        <div className=" md:block">
+        <div className=" md:block  max-w-screen-md ">
           <h2
             className="text-2xl text-black font-bold mb-4"
             style={{ fontStyle: "italic" }}
           >
             AI Was Just a Dream. Now, It's Reality.
           </h2>
-          <p className="text-gray-600 mb-4 font-roboto">
+          <p className="text-gray-600 mb-4 ">
           Decoding the Global Design Ecosystem: When Award-Winning Designers Meet AI, Projects Come Alive Worldwide
           </p>
         </div>
