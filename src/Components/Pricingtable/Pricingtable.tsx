@@ -31,10 +31,10 @@ const PricingTable: React.FC = () => {
       monthlyPrice: "249",
       annualPrice: "2,499",
       description:
-        "Our Bypass Interior Designer Plan allows you to skip the middleman and connect directly with top designers globally. Plus, our AI technology ensures seamless collaboration between you and our team, bringing your design dreams to life efficiently and within budget.",
+        "Our Bypass Interior Designer Plan allows you to skip the middleman and connect directly with our designers globally. Plus, our AI technology ensures seamless collaboration between you and our team, bringing your design dreams to life efficiently and within budget.",
       cardBgClass: "bg-black/50 backdrop-blur-3xl",
       buttonClass: "text-black bg-white hover:bg-white/5 hover:text-white ",
-      features: ["10 Credits / month" , "AI Style Matcher", "Unlimited AI Designs", "Mirror a famous designer's project style", "Chat with AI interior designer", "Human interior designer",  "2D Floor Plan Design (2-5 credits)", "3D Design Rendering (2-8 credits)", "Home Decor Package (3-5 credits)"],
+      features: ["10 Credits / month" , "AI Style Matcher", "Unlimited AI Designs", "Mirror a famous designer's project style", "Chat with AI interior designer", "Human interior designer",  "2D Floor Plan Design (2-5 credits)", "3D Design Rendering (2-8 credits)", "Curated Home Decor with clickable shopping list (3-5 credits)"],
       unavailableFeatures: [],
     },
     {

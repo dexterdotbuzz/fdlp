@@ -21,15 +21,11 @@ const DirectionAwareHoverDemo = () => {
   return (
     <>
       <div className="bg-[#e2e0dc] flex  flex-col items-center p-4 ">
-        <h1 className="font-semibold text-2xl font-silk-serif text-black">
+        <h1 className="font-semibold text-4xl font-silk-serif text-black">
           Explore Our Latest Projects.
         </h1>
         <br />
-        <h2 className="font-medium font-silk-serif text-slate-700">
-          Discover groundbreaking AI solutions that are transforming industries
-          and driving progress. Step into the future with our cutting-edge
-          projects.
-        </h2>
+
       </div>
 
       <div className="h-[100%]     bg-[#e2e0dc] mb-4 flex items-center align-middle justify-center">

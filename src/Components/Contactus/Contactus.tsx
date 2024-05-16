@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import img from "../../assets/interiordeg.jpg";
-import img2 from "../../assets/furniture.jpg";
+import img2 from "../../assets/team.webp";
 import { Button } from "../ui/moving-border";
 
 const DesignRetailSection: React.FC = () => {
@@ -40,7 +40,7 @@ const DesignRetailSection: React.FC = () => {
             }`}
             onClick={() => handleButtonClick("Furniture Vendors")}
           >
-            World Class Designers
+            Human Designers
           </button>
         </div>
         <div className="flex flex-col items-center md:flex-row md:justify-center">

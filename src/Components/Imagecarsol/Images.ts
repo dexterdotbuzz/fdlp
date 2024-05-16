@@ -1,14 +1,13 @@
 import Afteronedefault from "../../assets/afteronedefault.webp";
 import Beforeonedefault from "../../assets/Beforeonedefault.webp";
 import After2 from "../../assets/After2.webp";
-import Before2 from "../../assets/Before2.webp";
-import img1After from "../../assets/afterimg1.png";
-import bedroomImg from "../../assets/bedroom.jpg";
-import afterBedImg from "../../assets/afterbedeffect.png";
-import kitchenImg from "../../assets/newpvkitchen.jpeg";
-import afterKitchenImg from "../../assets/kitechenafter.jpg";
-import dining from "../../assets/dining.jpg";
-import dining2 from "../../assets/dining22.jpg";
+import Before2 from "../../assets/lhfssj-4.webp";
+import img1After from "../../assets/nbydcjdpc-9 (1).webp";
+import bedroomImg from "../../assets/B1-3.webp";
+import kitchenImg from "../../assets/shrhhbcdpc-1.webp";
+import afterKitchenImg from "../../assets/shmzz-8.webp";
+import dining from "../../assets/Before2.webp";
+import dining2 from "../../assets/lanmao-13.webp";
 // import Before from "../../assets/Before.png"
 // import imgi from "../../assets/bedroom.jpg"
 
@@ -21,15 +20,15 @@ after: [
 { src: dining2, title: "After Kitchen" }
 ],
 otherImages: [
-{ before: { src: Afteronedefault, title: "Metaphysical Silence" }, after: { src: afterBedImg, title: "After " } },
+{ before: { src: Afteronedefault, title: "Metaphysical Silence" }, after: { src: Afteronedefault, title: "After " } },
 
-{ before: { src: After2, title: "Kitchen" }, after: { src: afterKitchenImg, title: "After " } },
-{ before: { src: img1After, title: "Dining" }, after: { src: dining2, title: "After " } },
+{ before: { src: After2, title: "Heavenly Hideout" }, after: { src: afterKitchenImg, title: "After " } },
+{ before: { src: img1After, title: "Serene Sanctuary" }, after: { src: dining2, title: "After " } },
 
-{ before: { src: Before2, title: "Kitchen" }, after: { src: afterKitchenImg, title: "After" } },
-{ before: { src: dining2, title: "Dining" }, after: { src: kitchenImg, title: "After " } },
-{ before: { src: dining, title: "Dining" }, after: { src: dining2, title: "After " } },
-{ before: { src: Beforeonedefault, title: "Bedroom" }, after: { src: Afteronedefault, title: "After " } },
+{ before: { src: Before2, title: "Peaceful Paradise" }, after: { src: afterKitchenImg, title: "After" } },
+{ before: { src: dining2, title: "Zen Oasis" }, after: { src: kitchenImg, title: "After " } },
+{ before: { src: kitchenImg, title: "Dreamy Dwelling" }, after: { src: kitchenImg, title: "After " } },
+{ before: { src: afterKitchenImg, title: "Whispering Woods" }, after: { src: Afteronedefault, title: "After " } },
 ] as const,
 
 belowBefore: [
