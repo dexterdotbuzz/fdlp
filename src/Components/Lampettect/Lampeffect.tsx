@@ -59,7 +59,7 @@ export function LampDemo() {
               muted
               autoPlay
             >
-              <source src="https://res.cloudinary.com/dzo4lqjb2/video/upload/v1709629255/Websites/frpujesvaor5oetcwhcn.mp4" type="video/mp4" />
+              <source src="https://res.cloudinary.com/dzo4lqjb2/video/upload/v1709629255/Websites/frpujesvaor5oetcwhcn.mp4" />
              
               
             </video>

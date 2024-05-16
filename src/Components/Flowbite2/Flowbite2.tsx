@@ -11,7 +11,7 @@ const Flowbite2 = () => {
               muted
               autoPlay
         >
-          <source src="https://videos.pexels.com/video-files/7578552/7578552-uhd_3840_2160_30fps.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/dzo4lqjb2/video/upload/v1715575406/Websites/id_full_video_qpsler_mo9jsx.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         {/* Video for mobile */}
@@ -22,7 +22,7 @@ const Flowbite2 = () => {
           className="w-full md:hidden"
           
         >
-          <source src="https://videos.pexels.com/video-files/7578552/7578552-uhd_3840_2160_30fps.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/dzo4lqjb2/video/upload/v1715575406/Websites/id_full_video_qpsler_mo9jsx.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="md:order-1 mt-4 md:mt-0">
