@@ -16,7 +16,7 @@ function App() {
         <div>
           <Faqs />
         </div>
-        <div className="mt-9">
+        <div className="">
           <TypewriterEffectSmoothDemo />
         </div>
       </section>
