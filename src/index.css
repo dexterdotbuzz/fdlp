@@ -83,6 +83,17 @@
   }
 }
 
+@media (max-width: 767px) {
+  .directionimgcarl {
+   
+    margin-left: 0px;
+   margin-right: 0px;
+   padding: 0;
+   
+    
+  }
+}
+
 
 
  /* this is the text below the line effect according to mobile  */
