@@ -76,7 +76,7 @@ export function LampDemo() {
 
       <section>
         <DirectionAwareHoverDemo/>
-        <div className=" bg-[#e2e0db]">
+        <div className=" bg-[#ffffff]">
 
         <Imagecarsol/>
         </div>

@@ -8,9 +8,9 @@ const DirectionAwareHoverDemo = () => {
     "https://res.cloudinary.com/dzo4lqjb2/image/upload/v1715053159/Websites/SCR-20240507-kodp_u6owdk.jpg",
   ];
   const videos = [
-    "https://videos.pexels.com/video-files/3773486/3773486-hd_1920_1080_30fps.mp4",
-    "https://videos.pexels.com/video-files/3773486/3773486-hd_1920_1080_30fps.mp4",
-    "https://videos.pexels.com/video-files/3773486/3773486-hd_1920_1080_30fps.mp4",
+    "https://res.cloudinary.com/dzo4lqjb2/video/upload/v1715756062/Websites/cream_style_xzp4w7.mp4",
+    "https://res.cloudinary.com/dzo4lqjb2/video/upload/v1715756057/Websites/fd-case3_1_wfedcz.mp4",
+    "https://res.cloudinary.com/dzo4lqjb2/video/upload/v1715756063/Websites/fd-case2_1_ntuby2.mp4",
   ];
   const customTexts = [
     "the interior design ",

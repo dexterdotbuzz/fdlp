@@ -127,13 +127,10 @@ const [selectedMainBelowCardIndex, setSelectedMainBelowCardIndex] = useState<num
             className="text-2xl text-black font-bold mb-4"
             style={{ fontStyle: "italic" }}
           >
-            Bring out the creativity with unique AI-powered tools
+            AI Was Just a Dream. Now, It's Reality.
           </h2>
           <p className="text-gray-600 mb-4 font-roboto">
-            Our AI generator brings to life diverse combinations of flooring,
-            paint, lighting, and decor in storytelling renderings. Whether it's
-            Bohemian, Farmhouse, or Traditional styles you're after, Collov AI
-            offers captivating design ideas for your home.
+          Decoding the Global Design Ecosystem: When Award-Winning Designers Meet AI, Projects Come Alive Worldwide
           </p>
         </div>
 
