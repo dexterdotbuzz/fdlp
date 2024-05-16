@@ -15,11 +15,16 @@ const Flowbite2 = () => {
         Your browser does not support the video tag.
       </video>
       {/* Image for mobile */}
-      <img
+      <video
         className="w-full md:hidden"
-        src="https://res.cloudinary.com/dzo4lqjb2/image/upload/v1709710873/Websites/Group_1000004007_bee1kd.webp"
-        alt="Mobile Image"
-      />
+        loop
+        muted
+        autoPlay
+
+        
+      >
+                      <source src="https://res.cloudinary.com/dzo4lqjb2/video/upload/v1709629255/Websites/frpujesvaor5oetcwhcn.mp4" />
+      </video>
       <div className="md:order-1 mt-4 md:mt-0">
         <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-[#000000] dark:text-white"> Step Inside Your Dream Home</h2>
         <p className="mb-6 font-light text-[#000000] md:text-lg dark:text-gray-400">Convert Floor Plans to Stunning 3D VR! Bring your floor plans to life and visualize your space in stunning detail</p>
