@@ -7,7 +7,7 @@ import {
 import { RiCheckboxCircleFill } from "react-icons/ri";
 
 const ImageCarousel: React.FC = () => {
-  const [selectedMainImageIndex, setSelectedMainImageIndex] = useState<number | null>(null);
+  const [selectedMainImageIndex, setSelectedMainImageIndex] = useState<number | null>(0);
 const [selectedMainBelowCardIndex, setSelectedMainBelowCardIndex] = useState<number | null>(null);
 
 
@@ -82,7 +82,7 @@ const [selectedMainBelowCardIndex, setSelectedMainBelowCardIndex] = useState<num
                 images.otherImages[selectedMainImageIndex] && (
                   <p
                     className="text-xs text-white font-serif absolute left-0 bottom-0 top-0 right-0 mt-1 mb-1 ml-1 md:left-[1rem] sm:left-[5rem] md:right-0 lg:left-[25rem] lg:right-[auto] lg:inset-x-0"
-                    style={{ left: "25rem" }}
+                    style={{ left: "20rem" }}
                   >
                     {images.otherImages[selectedMainImageIndex].after.title}
                   </p>
