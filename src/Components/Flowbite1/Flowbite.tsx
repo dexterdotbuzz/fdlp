@@ -19,12 +19,15 @@ const Flowbitesection1 = () => {
         <div className="md:order-1 mt-4 md:mt-0">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-[#000000] dark:text-white">Custom Floor Plans by Top Designers & AI!</h2>
           <p className="mb-6 font-light text-[#000000] md:text-lg dark:text-gray-400">Your perfect home layout is just $249 away — let our top designers + AI guide you through a custom floor plan experience like no other</p>
+          <a href="https://app.feeldesign.ai" target="blank">
+
           <Button
             borderRadius="1.75rem"
             className="bg-[#D1CFC8] font-silk-serif font-bold text-stone-800 dark:text-stone-600 border-neutral-200 dark:border-transparent"
-          >
+            >
             Get Started
           </Button>
+            </a>
         </div>
       </div>
     </section>

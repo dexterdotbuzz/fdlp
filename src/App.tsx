@@ -16,13 +16,13 @@ function App() {
         <div>
           <Faqs />
         </div>
-        <div className="">
+        <div >
           <TypewriterEffectSmoothDemo />
         </div>
       </section>
 
       <footer>
-        <Footer className="className" />
+        <Footer />
       </footer>
     </>
   );

@@ -34,12 +34,15 @@ export function TypewriterEffectSmoothDemo() {
           Signup
         </button> */}
        <div className="mt-5">
+        <a href="https://app.feeldesign.ai" target="blank">
+
       <Button
         borderRadius="1.75rem"
         className="  bg-[#D1CFC8] font-bold border-white  text-stone-600  "
       >
          Get Started
       </Button>
+        </a>
 
 
 
