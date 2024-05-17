@@ -32,7 +32,7 @@ const Flowbite2 = () => {
           borderRadius="1.75rem"
           className="bg-[#D1CFC8] font-bold text-stone-800 dark:text-stone-600 border-neutral-200 font-silk-serif dark:border-transparent"
         >
-          Borders are cool
+          Get Started
         </Button>
       </div>
     </div>
