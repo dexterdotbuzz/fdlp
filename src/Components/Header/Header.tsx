@@ -15,7 +15,7 @@ const Header = () => {
         />
       </a>
 
-      <a href="https://app.feeldesign.ai" target="blank" className="p-2 font-semibold hover:text-gray-800">
+      <a href="https://app.feeldesign.ai" className="p-2 font-semibold hover:text-gray-800">
         <span>Login <FiArrowRight className="inline-block" /></span>
       </a>
     </header>

@@ -19,7 +19,7 @@ const Flowbitesection1 = () => {
         <div className="md:order-1 mt-4 md:mt-0">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-[#000000] dark:text-white">Shop the Look: Curated Home Décor Just a Click Away!</h2>
           <p className="mb-6 font-light text-[#000000] md:text-lg dark:text-gray-400">Revamp your home effortlessly—shop your favorite looks and bring your vision to life with a single click!</p>
-          <a href="https://app.feeldesign.ai" target="blank">
+          <a href="https://app.feeldesign.ai" >
 
           <Button
             borderRadius="1.75rem"

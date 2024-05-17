@@ -148,7 +148,7 @@ const PricingTable: React.FC = () => {
                   </div>
                   <div className="flex mt-6">
                     <a
-                     href="https://app.feeldesign.ai" target="blank"
+                     href="https://app.feeldesign.ai" 
                       title={plan.name}
                       aria-label="get started"
                       className={`flex items-center justify-center w-full  h-12 px-4 py-2 text-base font-medium transition-all duration-200 rounded-xl ${plan.buttonClass}`}
@@ -219,7 +219,7 @@ const PricingTable: React.FC = () => {
                   </div>
                   <div className="flex mt-6">
                     <a
-                      href="https://app.feeldesign.ai" target="blank"
+                      href="https://app.feeldesign.ai" 
                       title={plan.name}
                       aria-label="get started"
                       className={`flex items-center justify-center w-full  h-12 px-4 py-2 text-base font-medium transition-all duration-200 rounded-xl ${plan.buttonClass}`}

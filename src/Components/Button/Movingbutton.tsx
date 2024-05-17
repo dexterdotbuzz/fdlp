@@ -4,7 +4,7 @@ import { Button } from "../ui/moving-border";
 export function MovingBorderDemo() {
   return (
     <div className="mt-14 font-silk-serif">
-      <a href="https://app.feeldesign.ai" target="blank">
+      <a href="https://app.feeldesign.ai">
 
       <Button
         borderRadius="1.75rem"
