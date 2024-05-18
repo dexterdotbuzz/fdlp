@@ -1,12 +1,12 @@
 import Afteronedefault from "../../assets/afteronedefault.webp";
-import Beforeonedefault from "../../assets/Beforeonedefault.webp";
+import Beforeonedefault from "../../assets/Beforeonedefault.png";
 import After2 from "../../assets/After2.webp";
 import Before2 from "../../assets/lhfssj-4.webp";
 import img1After from "../../assets/nbydcjdpc-9 (1).webp";
-import bedroomImg from "../../assets/B1-3.webp";
+import bedroomImg from "../../assets/B1-3.png";
 import kitchenImg from "../../assets/shrhhbcdpc-1.webp";
 import afterKitchenImg from "../../assets/shmzz-8.webp";
-import dining from "../../assets/Before2.webp";
+import dining from "../../assets/Before2.png";
 import dining2 from "../../assets/lanmao-13.webp";
 // import Before from "../../assets/Before.png"
 // import imgi from "../../assets/bedroom.jpg"
