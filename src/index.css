@@ -162,3 +162,13 @@
 .hover-bg-primary-dark:hover {
   background-color: #33f; /* Change 'your-primary-dark-color' to your desired color value */
 }
+
+
+@media screen and (max-width: 640px) {
+  .picbelow {
+   width: 6rem;
+   height: 2rem;
+   position: relative;
+   top: -6rem; /* Adjust as needed */
+  }
+}
