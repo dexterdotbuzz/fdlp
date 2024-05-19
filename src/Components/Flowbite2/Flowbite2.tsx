@@ -23,8 +23,10 @@ const Flowbite2 = () => {
 
         
       >
-                      <source src="https://res.cloudinary.com/dzo4lqjb2/video/upload/v1715575406/Websites/id_full_video_qpsler_mo9jsx.mp4" />
+                             <source src="https://res.cloudinary.com/dzo4lqjb2/video/upload/v1715575406/Websites/id_full_video_qpsler_mo9jsx.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
       </video>
+      
       <div className="md:order-1 mt-4 md:mt-0">
         <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-[#000000] dark:text-white"> Step Inside Your Dream Home</h2>
         <p className="mb-6 font-light text-[#000000] md:text-lg dark:text-gray-400">Convert Floor Plans to Stunning 3D VR! Bring your floor plans to life and visualize your space in stunning detail</p>
