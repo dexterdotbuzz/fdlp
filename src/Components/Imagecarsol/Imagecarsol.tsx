@@ -107,7 +107,7 @@ const [selectedMainBelowCardIndex, setSelectedMainBelowCardIndex] = useState<num
               <img
                 src={image.src}
                 alt={`Three Cards ${index }`}
-                className={`min-w-full border h-full sm:w-[6rem] sm:h-[6rem] xs:w-[6rem] xs:h-[6rem] items-start object-cover ${
+                className={`min-w-full border h-full sm:w-[6rem] sm:h-[6rem] picbelow items-start object-cover ${
                   selectedMainBelowCardIndex === index
                     ? "border-blue-100 border-2"
                     : "border-transparent"
