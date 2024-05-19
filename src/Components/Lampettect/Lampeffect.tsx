@@ -54,16 +54,17 @@ export function LampDemo() {
         <div ref={videoSectionRef} className="mt-12 dark relative text-center p-7">
           
           <div className="relative overflow-hidden">
-            <video
-              className="w-[40rem] h-auto rounded-[8px]"
-              loop
-              muted
-              autoPlay
-            >
-              <source src="https://res.cloudinary.com/dzo4lqjb2/video/upload/v1709629255/Websites/frpujesvaor5oetcwhcn.mp4" />
-             
-              
-            </video>
+          <video
+  className="w-[40rem] h-auto rounded-[8px]"
+  loop
+  muted
+  autoPlay
+  playsInline
+  preload="auto"
+>
+  <source src="https://res.cloudinary.com/dzo4lqjb2/video/upload/v1709629255/Websites/frpujesvaor5oetcwhcn.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
           </div>
           <MovingBorderDemo />
         </div>
