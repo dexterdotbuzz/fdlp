@@ -23,7 +23,7 @@ const Flowbite2 = () => {
 
         
       >
-                      <source src="https://res.cloudinary.com/dzo4lqjb2/video/upload/v1709629255/Websites/frpujesvaor5oetcwhcn.mp4" />
+                      <source src="https://res.cloudinary.com/dzo4lqjb2/video/upload/v1715575406/Websites/id_full_video_qpsler_mo9jsx.mp4" />
       </video>
       <div className="md:order-1 mt-4 md:mt-0">
         <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-[#000000] dark:text-white"> Step Inside Your Dream Home</h2>
