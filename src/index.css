@@ -104,7 +104,7 @@
 }
 @media screen and (max-width: 375px) {
   .mtmbsm {
-    margin-top: 10rem; /* Adjust as needed */
+    margin-top: 2rem; /* Adjust as needed */
   }
 }
 @media screen and (max-width: 430px) {
@@ -115,21 +115,21 @@
 
 @media screen and (max-width: 425px) {
   .mttext {
-    transform: translateY(-10rem); 
+    transform: translateY(-4rem); 
    /* Adjust as needed */
   }
 
 }
 @media screen and (max-width: 375px) {
   .mttextsm {
-    transform: translateY(-2rem); 
+    transform: translateY(-6rem); 
    /* Adjust as needed */
   }
 
 }
 @media screen and (max-width: 430px) {
   .mttextip {
-    transform: translateY(-9rem); 
+    transform: translateY(-7rem); 
    /* Adjust as needed */
   }
 
