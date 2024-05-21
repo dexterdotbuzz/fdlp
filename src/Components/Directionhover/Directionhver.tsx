@@ -13,9 +13,9 @@ const DirectionAwareHoverDemo = () => {
     "https://res.cloudinary.com/dzo4lqjb2/video/upload/v1715756063/Websites/fd-case2_1_ntuby2.mp4",
   ];
   const customTexts = [
-    "the interior design ",
-    "buiding design building",
-    "Custom design home",
+    "Asheville, North Carolina",
+    "Savannah, Georgia",
+    "Portland, Oregon",
   ];
 
   return (
