@@ -2,7 +2,7 @@
 
 
 import { FiArrowRight } from "react-icons/fi";
-import logo from "../public/logo.svg";
+import logo from "/logo.svg";
 
 const Header = () => {
 return (
