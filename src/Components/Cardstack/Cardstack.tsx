@@ -58,7 +58,7 @@ const CARDS = [
     content: (
       <p>
         Saved big on design fees
-        <Highlight>Goodbye, interior designer costs!</Highlight> Feel Design truly exceeded my expectations.
+        </Highlight> Feel Design truly exceeded my expectations.
         <Highlight>Renovating</Highlight> a home can be daunting, but Feel Design made it a breeze.
       </p>
     ),
