@@ -58,8 +58,7 @@ const CARDS = [
     content: (
       <p>
         Saved big on design fees
-        </Highlight> Feel Design truly exceeded my expectations.
-        <Highlight>Renovating</Highlight> a home can be daunting, but Feel Design made it a breeze.
+        <Highlight>Renovating</Highlight> a home can be daunting, but they made it a breeze.
       </p>
     ),
   },
