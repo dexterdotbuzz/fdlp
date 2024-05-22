@@ -49,7 +49,7 @@ export function LampDemo() {
           }}
           className=" bg-gradient-to-br from-[#3F3E3D] to-[#3F3E3D] font-silk-serif pb-5 bg-clip-text text-center text-4xl font-medium tracking-tight  text-transparent md:text-7xl"
         >
-          When Award-Winning Designers Meet AI <br />  Projects Come Alive Worldwide
+          👋🏻 Bye-bye interior designers, hello savings! <br />  AI Was Just a Dream. Now, It's Reality
         </motion.h1>
         <div ref={videoSectionRef} className="mt-12 dark relative text-center p-7">
           
