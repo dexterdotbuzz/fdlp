@@ -1,7 +1,7 @@
 // Header.js
 
 
-iimport { FiArrowRight } from "react-icons/fi";
+import { FiArrowRight } from "react-icons/fi";
 import logo from "../../assets/logo.svg";
 
 const Header = () => {
